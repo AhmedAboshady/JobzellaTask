@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">JobzellaTask</string>
+    <string name="service_not_available">الخدمة غير متوفرة الآن ، يرجى المحاولة مرة أخرى لاحقًا</string>
+    <string name="no_connection">لا يوجد اتصال بالإنترنت ، يرجى التحقق من اتصال الإنترنت والمحاولة مرة أخرى</string>
+    <string name="connection_time_out">تم قطع الطلب ، يرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى</string>
+    <string name="unknown_error">حدث خطأ غير معروف ، يرجى المحاولة مرة أخرى</string>
+    <string name="session_expired">Session Expired please Login Again </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="field_required">This Field is required</string>
+    <string name="validate_lenght">The character is should more than %1$d</string>
+    <string name="result_query">Result for : %1$s</string>
 </resources>

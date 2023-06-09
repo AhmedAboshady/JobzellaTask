@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomMainButton">
+        <attr name="text" format="string"/>
+        <attr name="background_tint" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="CustomToolbar">
+        <attr name="title" format="string" />
+        <attr name="back_visibility" format="boolean" />
+
+        <attr name="close_back_visibility" format="boolean" />
+        <attr name="toolbar_background_color" format="integer" />
+        <attr name="title_gravity" />
+        <attr name="title_size" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomAuthView">
+        <attr name="auth_hint" format="string" />
+        <attr name="label" format="string" />
+        <attr name="value" format="string" />
+        <attr name="auth_image" format="integer" />
+        <attr name="auth_input_type" />
+        <attr name="error_enable" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomSelectView">
+        <attr name="selected_hint" format="string" />
+        <attr name="selected_label" format="string" />
+        <attr name="go_enable" format="boolean" />
+        <attr name="drawable_start" format="integer"  />
+    </declare-styleable>
+    <declare-styleable name="CustomProgressView">
+        <attr name="error_message" format="string" />
+        <attr name="progress_image" format="integer" />
+        <attr name="progress_background_color" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomRatingBar">
+        <attr name="star_rating" format="float" />
+        <attr name="star_size" format="integer" />
+        <attr name="star_color" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomItemSettingView">
+        <attr name="setting_text" format="string" />
+        <attr name="setting_text_color" format="integer" />
+        <attr name="setting_icon" format="integer" />
+        <attr name="next_arrow_icon" format="boolean" />
+        <attr name="setting_line_visibility" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomSocialView">
+        <attr name="facebook_title" format="string" />
+        <attr name="google_title" format="string" />
+        <attr name="facebook_color" format="integer" />
+        <attr name="google_color" format="integer" />
+    </declare-styleable>
+
+    <attr name="title_gravity" format="enum">
+        <enum name="center" value="1" />
+    </attr>
+
+    <attr name="auth_input_type" format="enum">
+        <enum name="textEmailAddress" value="0x000000d0" />
+        <enum name="personName" value="0x00000061" />
+        <enum name="phone" value="0x00000002" />
+        <enum name="password" value="0x00000081" />
+    </attr>
+</resources>

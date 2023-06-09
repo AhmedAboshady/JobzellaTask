@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/searchFragment">
+
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.task.jobzella.SearchFragment"
+        android:label="Search For Images"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_searchFragment_to_resultFragment"
+            app:destination="@id/resultFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.task.jobzella.ResultFragment"
+        android:label="{title}"
+        tools:layout="@layout/fragment_result" >
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument
+            android:name="Result"
+            app:argType="com.task.domain.entity.Result[]" />
+    </fragment>
+</navigation>
